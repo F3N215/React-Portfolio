@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../src/components/Header";
-import About from "../src/components/About";
+import About from "./components/About";
 import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
