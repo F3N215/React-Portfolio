@@ -31,7 +31,8 @@ function About() {
           <p>
             Thanks to this incredibly challenging bootcamp I now have
             JavaScript, Node.js, Express, MySQL, MongoDB, React, and more. I am
-            excited to continue to learn and grow as a developer.
+            excited to continue to learn and grow as a developer. But wow, what
+            a journey it has been!
           </p>
 
           <p>more bio</p>
