@@ -697,7 +697,6 @@
     .contact-info li {
       font-size: 25px;
       justify-content: space-between;
-
     }
   
     #contact-list {
@@ -712,5 +711,4 @@
     .contact-info>* {
       flex: 0 100%;
     }
-  
   }
