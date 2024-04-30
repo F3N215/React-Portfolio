@@ -181,17 +181,13 @@
   }
   
   .intro-text p {
-    color: #328C83;
+    color: #AEC3B0;
     font-size: 18px;
   }
   
-  /*end intro*/
-  
-  
-  /* REACH OUT STYLES START */
+  /* reach out */
   #reach-out {
-    /* margin-top: 5px; */
-    background: #75BFB2;
+    background: #AEC3B0;
   }
   
   #reach-out h2 {
@@ -213,25 +209,23 @@
   }
   
   .contact-form button:hover {
-    color: #F2E3D5;
-    background: #39a6b2;
+    color: #eff6e0;
+    background: #AEC3B0;
   }
   
   .contact-form input,
   .contact-form textarea {
-    border: 1px solid #024e76;
+    border: 1px solid #01161e;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76;
+    color: #0000;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.75);
-  
   }
-  
   
   .contact-form input:focus,
   .contact-form textarea:focus {
@@ -242,15 +236,12 @@
   .contact-form button {
     width: 100%;
     border: none;
-    background: #F2E3D5;
-    color: #024e76;
+    background: #AEC3B0;
+    color: #0000;
     text-align: center;
     padding: 15px 0;
     font-size: 25px;
     border-radius: 10px;
-  
-  
-  
   }
   
   .contact-info>* {
@@ -269,7 +260,7 @@
   }
   
   .contact-info h3 {
-    color: #0E5259;
+    color: #0000;
     font-size: 32px;
   }
   
@@ -291,25 +282,20 @@
   }
   
   .contact-info a {
-    color: #0E5259;
+    color: #124559;
     display: inline;
   }
   
   .contact-info a:hover {
-    color: #ACF2E5;
+    color: #ffff;
     transition: .5s ease;
   }
-  
-  /*end "Contact me" styles*/
-  
-  
-  /*Start Jobs section*/
+    
+  /* jobs section*/
   
   .jobs {
     background: #0E5259;
-  
   }
-  
   
   .job {
     margin: 50px auto;
@@ -321,7 +307,6 @@
     justify-content: space-between;
     border-bottom: 1px solid #D5F2EA;
   }
-  
   
   .job:nth-child(even) {
     border-bottom: 1px solid #D5F2EA;
@@ -407,7 +392,7 @@
   
   .download-intro p {
     line-height: 1.7;
-    color: #0E5259;
+    color: #01161E;
     width: 95%;
     font-size: 30px;
     margin: 0 auto;
@@ -486,16 +471,7 @@
     align-items: center;
   
   }
-  
-  /* .download-text {
-    flex: 12;
-  } */
-  /* 
-  .download-text p {
-    color: #328C83;
-    font-size: 32px;
-  } */
-  
+
   .column-title {
     color: #285950;
     font-size: 25px;
@@ -506,21 +482,11 @@
     color: #285950;
     font-size: 20px;
     padding: 5px;
-  
-  
   }
   
   .column-text ul li {
     list-style: none;
   }
-  
-  
-  /*End resume section*/
-  
-  
-  
-  
-  
   
   /* start styles to <footer> */
   footer {
