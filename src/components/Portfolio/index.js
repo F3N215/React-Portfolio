@@ -15,24 +15,24 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Sweet-Pea-Flowers/">
+              <a href="https://github.com/F3N215/React-Portfolio/blob/main/Assets/portfolio/Employee_Tracker.png">
                 {" "}
                 <img
-                  src={sphereImage}
+                  src={trackerImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Sweet-Pea-Flowers"
+                  alt="Employee-Tracker-Image"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Sorcerer's Sphere</h4>
+              <h4>Employee Tracker</h4>
               <p>
-                A MERN application that lets the user log in and create an
-                account. The user can receive daily affirmations. The user also
-                has the ability to ask questions to receive an answer. The user
-                also can receive a lucky number if they want. The user can
-                donate money to the website if they want to.
+                A MySQL application that enables the user to manage a company's
+                employee roster. Using terminal commands, the user can view all
+                employees, roles, and departments. The user can add employees,
+                roles, and departments. The user can also update employee roles
+                and managers of employees.{" "}
               </p>
             </div>
           </div>
@@ -41,70 +41,23 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Sweet-Pea-Flowers/">
-                {" "}
-                <img
-                  src={flowerImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Sweet-Pea-Flowers"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>Sweet Pea Flowers</h4>
-              <p>
-                A HTMl, CSS, and Javascript application that lets the user shop
-                for their favorite flowers.The user can sign in as a guest or as
-                a user to add items to their cart. The user can manage their
-                cart by using local storage. The user can checkout and validate
-                their credit card.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://lemming97.github.io/Twilight_Ristorante/">
-                {" "}
-                <img
-                  src={twilightImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Twilight_Ristorante"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>Twilight Ristorante</h4>
-              <p>
-                A HTML and CSS application that lets the user explore a Sample
-                Restaurant Design.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://nameless-mountain-77177.herokuapp.com/">
+              <a href="https://github.com/F3N215/React-Portfolio/blob/main/Assets/portfolio/NoteTaker.png">
                 {" "}
                 <img
                   src={noteTakerImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Note_Taker"
+                  alt="Note-Taker-Image"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Note Taker</h4>
+              <h4>Expess NoteTaker</h4>
               <p>
-                An application that provides the user the ability to add new
-                notes, and to delete notes.{" "}
+                A simple note-taking application that uses Express.js to record,
+                save and delete notes. NoteTaker has a clean, simplified UI, and
+                makes use of GET, POST, and DELETE routes. Each post is assigned
+                a unique ID using npm packages.{" "}
               </p>
             </div>
           </div>
@@ -113,23 +66,24 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Weather_Dashboard/">
+              <a href="https://github.com/F3N215/React-Portfolio/blob/main/Assets/portfolio/Weather_Dashboard.png">
                 {" "}
                 <img
                   src={weatherDashImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Weather_Dashboard"
+                  alt="Weather-Dashboard"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Weather Dashboard</h4>
+              <h4>Five-Day Forecast App</h4>
               <p>
-                A website that allows the user see the weather outlook for
-                multiple cities. The user can enter a city and see a 5-Day
-                Forecast. The user can see the temperature, humidity levels,
-                wind speed as well as the UV index.{" "}
+                A weather dashboard that created using third-party APIs from
+                OpenWeatherMap, FontAwesome & Bootstrap. The app shows a 5 day
+                forecast for the city that the user searches for. The app also
+                shows the current weather conditions for the city of your
+                choice!{" "}
               </p>
             </div>
           </div>
@@ -138,48 +92,25 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Project_1/">
+              <a href="https://github.com/F3N215/React-Portfolio/blob/main/Assets/portfolio/Password_Sculptor.png">
                 {" "}
                 <img
-                  src={summerPunchImage}
+                  src={sculptImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="SummerPunch"
+                  alt="Password-Sculptor"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Summer Punch</h4>
+              <h4>Password Sculptor</h4>
               <p>
-                A website which offers users to input a drink name to have the
-                ingredients, measurements, and images display. The user can also
-                have a cocktail generated. If the user is too young, the user
-                will be redirected to another page.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://floating-island-17357.herokuapp.com/">
-                {" "}
-                <img
-                  src={homeBrewImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="HomeBrew"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>HomeBrew</h4>
-              <p>
-                A plant blog that allows the user to view seasonal gallery of
-                plants after the user logs into their account. The user can also
-                add comments to the blog once they are logged in as well as
-                deleting their comments.{" "}
+                A simple and fun password generator project as a way to better
+                understand JavaScript functions and operators. This was a way to
+                practice JavaScript skills ahead of a similar challenge for
+                Bootcamp, with a focus on style, making the design look clean
+                and modern, with humorous elements and themes capable of being
+                swapped in or out.{" "}
               </p>
             </div>
           </div>
