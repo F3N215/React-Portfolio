@@ -319,7 +319,7 @@
   .job-text h4 {
     font-size: 26px;
     line-height: 1.5;
-    color: #75BFB2;
+    color: #124559;
   }
   
   
@@ -499,19 +499,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
-  
   }
   
   footer h2 {
   
-    color: #75BFB2;
+    color: #124559;
     font-size: 15px;
     margin: 0;
   }
   
   footer p {
-    color: #75BFB2;
+    color: #124559;
     font-size: 15px;
     margin: 0;
     text-align: center;
@@ -525,7 +523,7 @@
   }
   
   footer a {
-    color: #75BFB2;
+    color: #124559;
   }
   
   footer a:hover {
@@ -553,7 +551,7 @@
   /* extra titles stylings */
   .section-title {
     font-size: 48px;
-    color: #75BFB2;
+    color: #124559;
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -578,7 +576,7 @@
     display: flex;
   }
   
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  /* media queries */
   
   @media screen and (max-width: 980px) {
     header {
@@ -678,7 +676,6 @@
   
   @media screen and (max-width: 575px) {
   
-  
     .section-title {
       width: 95%;
     }
@@ -695,14 +692,12 @@
   
     .contact-info {
       text-align: center;
-  
     }
   
     .contact-info li {
       font-size: 25px;
       justify-content: space-between;
-  
-  
+
     }
   
     #contact-list {
@@ -712,12 +707,10 @@
       flex-wrap: wrap;
       margin-bottom: 25px;
       margin-right: 120px;
-  
     }
   
     .contact-info>* {
       flex: 0 100%;
     }
-  
   
   }
