@@ -4,7 +4,7 @@ import About from "./components/about";
 import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
-import Footer from "../src/components/Footer";
+import Footer from "./components/Footer";
 import { Helmet } from "react-helmet";
 import "./App.css";
 
