@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   build: {
     rollupOptions: {
-      input: "index.js",
+      input: "./src/main.jsx",
       plugins: [react()],
     },
   },
