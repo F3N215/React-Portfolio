@@ -9,7 +9,7 @@ export default {
         sans: ["Oswald", "sans-serif"], // Extend the default font family to include 'Poppins'
       },
       colors: {
-        mygray: "#598392", // custom colour 'airforce blue' by hex value
+        airforceblue: "#598392", // custom colour 'airforce blue' by hex value
         accent: "#01161e", // custom accent color 'rich black' by hex value
       },
     },
