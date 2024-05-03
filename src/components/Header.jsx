@@ -10,7 +10,7 @@ function Header() {
       <div className="flex items-center">
         {/* Logo text */}
         <h1 className="text-3xl text-black ml-4">
-          S<span className="text-accent text-4xl">/</span>M
+          D<span className="text-accent text-4xl">/</span>J
         </h1>
       </div>
 
