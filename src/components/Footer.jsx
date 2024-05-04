@@ -26,7 +26,7 @@ export function FooterWithSocialLinks() {
           <span className="heart-symbol text-accent text-sm ml-1 animate__animated animate__heartBeat animate__slow animate__infinite">
             &#x2665;
           </span>
-          <span className="font-bold ml-1">M</span>
+          <span className="font-bold ml-1">Made with love</span>
         </div>
       </div>
       {/* Right section containing social links */}

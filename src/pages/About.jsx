@@ -1,4 +1,4 @@
-import date from "../assets/images/florentine.png";
+import date from "../assets/images/DanielJohnBW.jpg";
 
 // Define About functional component
 const About = () => {

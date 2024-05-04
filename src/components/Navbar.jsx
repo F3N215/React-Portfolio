@@ -26,7 +26,7 @@ function Navbar() {
       {/* Header with navigation */}
       <header className="App-header">
         {/* Navigation menu */}
-        <nav className="sticky bottom-0 flex items-center justify-between px-4 py-2 text-black text-2xl">
+        <nav className="sticky bottom-0 flex items-center justify-between px-4 py-2 text-white text-2xl">
           {/* List of navigation links */}
           <ul className={`md:flex ${isActive ? "block" : "hidden"}`}>
             {/* Home link */}
@@ -100,7 +100,7 @@ function Navbar() {
             <button onClick={toggleActiveClass}>
               {/* Hamburger menu */}
               <svg
-                className="w-6 h-6 text-black"
+                className="w-6 h-6 text-white"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
