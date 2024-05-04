@@ -10,13 +10,14 @@ export function FooterWithSocialLinks() {
   return (
     <footer className="fixed bottom-0 left-0 right-0 flex justify-between items-center mx-auto p-7 text-lg w-full z-10">
       {/* Left section containing name and copyright */}
-      <div className="flex items-center text-black">
+      <div className="flex items-center text-white">
+
         {/* Link to GitHub profile */}
         <a
           href="https://github.com/F3N215"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-accent"
+          className="text-white hover:text-accent"
         >
           Daniel John
         </a>
@@ -39,7 +40,7 @@ export function FooterWithSocialLinks() {
           className="text-myaccent hover:text-accent"
           title="Linkedin Profile"
         >
-          <SiLinkedin size={36} />
+          <SiLinkedin size={36} style={{ color: 'white' }} />
         </a>
         {/* Link to Frontend Mentor profile */}
         <a
@@ -49,7 +50,7 @@ export function FooterWithSocialLinks() {
           className="text-myaccent hover:text-accent"
           title="Instagram Profile"
         >
-          <SiInstagram size={36} />
+          <SiInstagram size={36} style={{ color: 'white' }} />
         </a>
         {/* Link to GitHub profile */}
         <a
@@ -59,7 +60,7 @@ export function FooterWithSocialLinks() {
           className="text-myaccent hover:text-accent"
           title="Github Profile"
         >
-          <SiGithub size={36} />
+          <SiGithub size={36} style={{ color: 'white' }} />
         </a>
       </div>
     </footer>

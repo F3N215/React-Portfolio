@@ -9,11 +9,10 @@ function Header() {
       {/* Logo */}
       <div className="flex items-center">
         {/* Logo text */}
-        <h1 className="text-3xl text-black ml-4">
-          D<span className="text-accent text-4xl">/</span>J
+        <h1 className="text-3xl text-white ml-4">
+        🐺<span className="text-accent text-4xl"></span>🌹
         </h1>
       </div>
-
       {/* Include Navbar component */}
       <Navbar />
     </header>

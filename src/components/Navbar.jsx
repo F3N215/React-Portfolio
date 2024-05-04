@@ -57,11 +57,11 @@ function Navbar() {
             {/* Projects link */}
             <li onClick={removeActive}>
               <Link
-                to="/projects"
+                to="/portfolio"
                 className={classNames("block px-2 py-1 hover:text-accent", {
-                  "text-accent": location.pathname === "/projects",
+                  "text-accent": location.pathname === "/portfolio",
                   "animate__animated animate__swing":
-                    location.pathname === "/projects",
+                    location.pathname === "/portfolio",
                 })}
               >
                 My Projects
