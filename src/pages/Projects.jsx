@@ -1,10 +1,11 @@
 // Import images for project cards
 import dash from "../assets/images/weatherdash.png";
 import orm from "../assets/images/ormecomm.png";
-// import xpress from "../assets/images/notetaker.png";
+import xpress from "../assets/images/notetaker.png";
 import sculpt from "../assets/images/sculptor.png";
 import track from "../assets/images/employeetracker.png";
 import mood from "../assets/images/mood.png";
+import ProjectCard from "./ProjectCard";
 
 // Define an array of project objects
 const projects = [
@@ -20,12 +21,12 @@ const projects = [
     image: orm,
     githubLink: "https://github.com/F3N215/ORM-Ecomm-Challenge?tab=readme-ov-file",
   },
-//   {
-//     // project 3: note taker
-//     title: "Express Note Taker",
-//     image: xpress,
-//     githubLink: "https://github.com/F3N215/Express-Note-Taking-App",
-//   },
+  {
+    // project 3: note taker
+    title: "Express Note Taker",
+    image: xpress,
+    githubLink: "https://github.com/F3N215/Express-Note-Taking-App",
+  },
   {
     // project 4: password sculptor
     title: "Password Sculptor",
