@@ -1,7 +1,7 @@
 // Import images for project cards
 import dash from "../assets/images/weatherdash.png";
 import orm from "../assets/images/ormecomm.png";
-import note from "../assets/images/notetaker.png";
+import note from "/src/assets/images/notetaker.png";
 import sculpt from "../assets/images/sculptor.png";
 import track from "../assets/images/employeetracker.png";
 import mood from "../assets/images/mood.png";
