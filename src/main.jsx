@@ -8,7 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
-// import Projects from "./pages/Projects";
+import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
 // Create a browser router configuration
