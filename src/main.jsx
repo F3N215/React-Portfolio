@@ -30,10 +30,10 @@ const router = createBrowserRouter([
         path: "/Contact", // Contact page path
         element: <Contact />, // Contact page component
       },
-      // {
-      //   path: "/Projects", // Projects page path
-      //   element: <Projects />, // Projects page component
-      // },
+      {
+        path: "/Projects", // Projects page path
+        element: <Projects />, // Projects page component
+      },
       {
         path: "/Resume", // Resume page path
         element: <Resume />, // Resume page component
